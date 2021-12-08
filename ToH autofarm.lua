@@ -80,6 +80,9 @@ local tp = {CFrame = New_CFrame}
 
 ts:Create(part, ti, tp):Play()
 
+game.Players.LocalPlayer.Character.KillScript:Destroy()
+game.Players.LocalPlayer.Character.ExplosiveDeath:Destroy()
+
 wait(5)
 
 Teleport()
